@@ -5,6 +5,16 @@ body {
     justify-content: center;
     background: #01411F;
 }
+/* STYLE THIS TO BE DIFFERENT COLORS AND FUN */
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
 
 .unlit .flame,
 .unlit .glow{
@@ -36,7 +46,8 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
-    top: 10em;
+    /* move down a few more em? */
+    top: 15em;
 }
 
 .candle::before {
@@ -54,7 +65,7 @@ body {
         sienna,
         darkorange
     );
-    filter: opacity(0.7)
+    filter: opacity(0.7);
 }
 
 .black{
